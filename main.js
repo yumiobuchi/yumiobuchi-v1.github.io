@@ -1,3 +1,17 @@
+
+var i = 0;
+var txt = 'Lorem ipsum dummy text blabla.';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+
 $(document).ready(function () {
     //smooth scrolling
     // $('nav a[href*="#"]').on('click',function(){
@@ -20,3 +34,4 @@ $(document).ready(function () {
     });
 
 });
+
