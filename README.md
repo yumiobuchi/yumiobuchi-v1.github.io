@@ -10,3 +10,4 @@ To do:
 - animation for landing page
 - Projects & Writing sections
 - scroll up button at end of page
+- more responsiveness
